@@ -67,7 +67,7 @@ export default {
         this.event = res.data;
         this.userId = res.data.userId;
 
-        return axios.get(`http://localhost/NakTicketBackend/api/user/${res.data.userId}`);
+        return axios.get(`https://nakticketbackend-deploy-production.up.railway.app/user/${res.data.userId}`);
       })
       .then(userRes => {
         this.organizer = userRes.data.fullname;
@@ -77,7 +77,7 @@ export default {
       });
 
     
-    axios.get(`http://localhost/NakTicketBackend/api/ticket-event/${eventId}`)
+    axios.get(`https://nakticketbackend-deploy-production.up.railway.app/ticket-event/${eventId}`)
       .then(res => {
         this.tickets = res.data;
       })
@@ -85,7 +85,7 @@ export default {
         console.error('Error status:', err.response?.status);
       });
 
-    axios.get(`http://localhost/NakTicketBackend/api/merchandise-event/${eventId}`)
+    axios.get(`https://nakticketbackend-deploy-production.up.railway.app/merchandise-event/${eventId}`)
       .then(res => {
         this.merchandise = res.data;
       })
