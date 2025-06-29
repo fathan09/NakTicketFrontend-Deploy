@@ -31,7 +31,7 @@ export const useForumStore = defineStore('forumStore', {
     async fetchForumData() {
       this.loading = true;
       try {
-        const response = await axios.get('http://localhost/NakTicketBackend/api/forum');
+        const response = await axios.get('https://nakticketbackend-deploy-production.up.railway.app/forum');
         this.threads = response.data;
       } catch (error) {
         console.error('Error loading forum data:', error);
@@ -43,7 +43,7 @@ export const useForumStore = defineStore('forumStore', {
     async createThread(newThread) {
       this.submitting = true;
       try {
-        await axios.post('http://localhost/NakTicketBackend/api/forum', newThread);
+        await axios.post('https://nakticketbackend-deploy-production.up.railway.app/forum', newThread);
         await this.fetchForumData(); // Refresh threads
       } catch (error) {
         console.error('Error creating new thread:', error);
