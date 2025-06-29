@@ -61,7 +61,7 @@ export default {
   mounted() {
     const eventId = this.$route.params.id; 
 
-    axios.get(`https://nakticketbackend-deploy-production.up.railway.app/user/event/${eventId}`)
+    axios.get(`https://nakticketbackend-deploy-production.up.railway.app/event/${eventId}`)
       .then(res => {
         console.log('Event API Response:', res.data);
         this.event = res.data;
