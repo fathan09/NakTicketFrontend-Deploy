@@ -1,0 +1,324 @@
+/* Ticket List */
+
+.container-ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.date-box {
+    background-color: #799887;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    width: 600px;
+    border-radius: 7px;
+}
+.ticket-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.ticket-item-add {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+.details-button {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.add-button, .reduce-button {
+    background-color: #799887;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.price-text {
+    font-size: larger;
+}
+
+#button-buy {
+    background-color: #799887;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+/* Event Detail */
+/*.event-detail {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .event-gallery {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+  }
+  
+  .event-gallery img {
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .event-info {
+    margin-top: 2rem;
+  }
+  
+  .purchase-box {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 300px;
+    background: #f9f9f9;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #88a391;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }*/
+
+/* Ticket Cart */
+
+.container-cart {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 16px 0;
+  }
+  
+
+.box-cart {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.unit-price {
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.total-price {
+    position: relative;
+    left: 420px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+#button-cancel {
+    background-color: maroon;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.router {
+    text-decoration: none;
+    color: white;
+}
+
+/* Create Ticket */
+
+.ticket-add-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ticket-add-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+    gap: 10px; 
+    border: none;
+    cursor: pointer;
+  }
+  
+
+#create-ticket-text {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+
+.ticket-add-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.create-ticket-icon {
+    position: relative;
+    bottom: 2px;
+
+}
+
+#ticket-paid {
+    background-color: #799887;
+    color: white;
+}
+
+/* Create Ticket Pop Up Section */
+
+.popup-create-ticket-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.popup-create-ticket-section form input, textarea {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.popup-create-ticket-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px;
+    gap: 20px;
+    padding: 30px;
+    background-color: #799887;
+    border-radius: 10px;
+}
+
+.form-button {
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+/* Create Ticket Card */
+
+.create-ticket-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 800px;
+    border : 1px solid black;
+    background-color: #c0d0c0;
+    border-radius: 10px;
+}
+
+.create-ticket-card .lower-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.create-ticket-card .upper-section {
+    margin-left: 20px;
+}
+
+
+.buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 480px;
+    padding: 10px;
+}
+
+.create-ticket-card-icon {
+    background: none;
+    border: none;
+}
+  
+
+/* Create Event View */
+
+.create-event-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* Edit Ticket */
+
+.ticket-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

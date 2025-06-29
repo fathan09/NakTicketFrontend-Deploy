@@ -1,0 +1,281 @@
+[
+    {
+      "id": 1,
+      "name": "Event 1",
+      "date": "2025-07-01",
+      "time": "10:00 - 18:00",
+      "price": 100,
+      "organizer": "John Doe",
+      "description": "A tech conference about AI and innovation.",
+      "thumbnail": "NakTicket 1.png",
+      "image": [
+        "src/assets/NakTicket 1.png",
+        "src/assets/event1-1.jpg",
+        "src/assets/event1-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Early Bird",
+          "deadline": "2025-06-15",
+          "price": 80,
+          "description": "Discounted ticket for early buyers."
+        },
+        {
+          "ticketName": "General Admission",
+          "deadline": "2025-06-30",
+          "price": 100,
+          "description": "Standard ticket with full access."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Event 2",
+      "date": "2025-07-05",
+      "time": "12:00 - 20:00",
+      "price": 120,
+      "organizer": "Alice Smith",
+      "description": "Music festival featuring local bands.",
+      "thumbnail": "event2.png",
+      "image": [
+        "src/assets/event2.png",
+        "src/assets/event2-1.jpg",
+        "src/assets/event2-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Early Bird",
+          "deadline": "2025-06-20",
+          "price": 90,
+          "description": "Limited early access ticket."
+        },
+        {
+          "ticketName": "VIP",
+          "deadline": "2025-07-01",
+          "price": 150,
+          "description": "Includes backstage pass and refreshments."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Event 3",
+      "date": "2025-07-10",
+      "time": "09:00 - 17:00",
+      "price": 75,
+      "organizer": "TechOrg",
+      "description": "Startup networking and pitch event.",
+      "thumbnail": "event3.png",
+      "image": [
+        "src/assets/event3.png",
+        "src/assets/event3-1.jpg",
+        "src/assets/event3-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Standard",
+          "deadline": "2025-07-05",
+          "price": 75,
+          "description": "Access to all sessions and lunch."
+        },
+        {
+          "ticketName": "Investor Pass",
+          "deadline": "2025-07-08",
+          "price": 120,
+          "description": "Includes startup demo room access."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Event 4",
+      "date": "2025-08-01",
+      "time": "14:00 - 22:00",
+      "price": 90,
+      "organizer": "Jane Roe",
+      "description": "Photography workshop and gallery.",
+      "thumbnail": "event4.png",
+      "image": [
+        "src/assets/event4.png",
+        "src/assets/event4-1.jpg",
+        "src/assets/event4-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Workshop Only",
+          "deadline": "2025-07-20",
+          "price": 60,
+          "description": "Entry to photography workshops."
+        },
+        {
+          "ticketName": "Full Access",
+          "deadline": "2025-07-30",
+          "price": 90,
+          "description": "Workshops plus gallery viewing."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Event 5",
+      "date": "2025-08-10",
+      "time": "16:00 - 23:00",
+      "price": 110,
+      "organizer": "Film Club",
+      "description": "Outdoor indie film screening.",
+      "thumbnail": "event5.png",
+      "image": [
+        "src/assets/event5.png",
+        "src/assets/event5-1.jpg",
+        "src/assets/event5-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Regular",
+          "deadline": "2025-08-05",
+          "price": 90,
+          "description": "Standard seat for film viewing."
+        },
+        {
+          "ticketName": "Couple Pass",
+          "deadline": "2025-08-08",
+          "price": 160,
+          "description": "Entry for two, includes snacks."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Event 6",
+      "date": "2025-08-20",
+      "time": "11:00 - 19:00",
+      "price": 95,
+      "organizer": "Foodies Inc",
+      "description": "Culinary fair with tastings.",
+      "thumbnail": "event6.png",
+      "image": [
+        "src/assets/event6.png",
+        "src/assets/event6-1.jpg",
+        "src/assets/event6-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Tasting Pass",
+          "deadline": "2025-08-15",
+          "price": 95,
+          "description": "Includes all food samples."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Event 7",
+      "date": "2025-09-01",
+      "time": "08:00 - 15:00",
+      "price": 60,
+      "organizer": "EduWorld",
+      "description": "Career fair and resume workshops.",
+      "thumbnail": "event7.png",
+      "image": [
+        "src/assets/event7.png",
+        "src/assets/event7-1.jpg",
+        "src/assets/event7-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Student Entry",
+          "deadline": "2025-08-28",
+          "price": 30,
+          "description": "Discounted for students."
+        },
+        {
+          "ticketName": "Professional",
+          "deadline": "2025-08-31",
+          "price": 60,
+          "description": "Includes resume review session."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Event 8",
+      "date": "2025-09-15",
+      "time": "10:00 - 22:00",
+      "price": 130,
+      "organizer": "ComicVerse",
+      "description": "Annual comic and cosplay convention.",
+      "thumbnail": "event8.png",
+      "image": [
+        "src/assets/event8.png",
+        "src/assets/event8-1.jpg",
+        "src/assets/event8-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "1-Day Pass",
+          "deadline": "2025-09-10",
+          "price": 70,
+          "description": "Valid for a single day entry."
+        },
+        {
+          "ticketName": "3-Day Pass",
+          "deadline": "2025-09-14",
+          "price": 130,
+          "description": "Access to all convention days."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Event 9",
+      "date": "2025-10-01",
+      "time": "13:00 - 20:00",
+      "price": 85,
+      "organizer": "Book Lovers Club",
+      "description": "Literary talks and book signings.",
+      "thumbnail": "event9.png",
+      "image": [
+        "src/assets/event9.png",
+        "src/assets/event9-1.jpg",
+        "src/assets/event9-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "General",
+          "deadline": "2025-09-25",
+          "price": 85,
+          "description": "Entry to all sessions."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Event 10",
+      "date": "2025-10-15",
+      "time": "15:00 - 23:00",
+      "price": 150,
+      "organizer": "Startup Hub",
+      "description": "Demo day for tech startups.",
+      "thumbnail": "event10.png",
+      "image": [
+        "src/assets/event10.png",
+        "src/assets/event10-1.jpg",
+        "src/assets/event10-2.jpg"
+      ],
+      "tickets": [
+        {
+          "ticketName": "Observer",
+          "deadline": "2025-10-10",
+          "price": 100,
+          "description": "Observer seat for demo sessions."
+        },
+        {
+          "ticketName": "Pitch Slot",
+          "deadline": "2025-10-12",
+          "price": 150,
+          "description": "Pitch your startup to investors."
+        }
+      ]
+    }
+  ]
+  

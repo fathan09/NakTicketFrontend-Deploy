@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to the event discussion forum!",
+    "mainPost": {
+      "author": "Event Organizer",
+      "content": "This is the official discussion forum for our event. Feel free to ask questions or share your thoughts!",
+      "date": "2023-06-15T10:00:00Z",
+      "likes": 5,
+      "isOrganizer": true
+    },
+    "replies": [
+      {
+        "author": "John Doe",
+        "content": "I'm excited for this event! Can't wait to attend.",
+        "date": "2023-06-15T14:30:00Z",
+        "likes": 2,
+        "isOrganizer": false
+      },
+      {
+        "author": "Event Organizer",
+        "content": "We're excited to have you join us, John! Stay tuned for more updates.",
+        "date": "2023-06-16T09:15:00Z",
+        "likes": 1,
+        "isOrganizer": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Question about parking options",
+    "mainPost": {
+      "author": "Jane Smith",
+      "content": "Is there parking available at the venue? If so, what are the costs?",
+      "date": "2023-06-17T15:45:00Z",
+      "likes": 0,
+      "isOrganizer": false
+    },
+    "replies": []
+  },
+  {
+    "id": 3,
+    "title": "Food and beverages at the event",
+    "mainPost": {
+      "author": "Mike Johnson",
+      "content": "Will there be food and drinks available for purchase at the event? Are outside food and drinks allowed?",
+      "date": "2023-06-18T11:20:00Z",
+      "likes": 3,
+      "isOrganizer": false
+    },
+    "replies": [
+      {
+        "author": "Event Organizer",
+        "content": "Yes, we'll have food vendors at the event. Outside food is allowed, but please no outside alcoholic beverages.",
+        "date": "2023-06-18T13:45:00Z",
+        "likes": 4,
+        "isOrganizer": true
+      }
+    ]
+  }
+] 

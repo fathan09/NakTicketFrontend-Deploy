@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Event Lightstick",
+      "description": "Official lightstick from the 2025 concert.",
+      "price": 60,
+      "currency": "MYR",
+      "image": "/images/lightstick.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Limited Edition T-Shirt",
+      "description": "Available in all sizes.",
+      "price": 90,
+      "currency": "MYR",
+      "image": "/images/tshirt.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Acrylic Stand",
+      "description": "Featuring exclusive collab artwork.",
+      "price": 35,
+      "currency": "MYR",
+      "image": "/images/AcrylicStand.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Concert Poster",
+      "description": "Limited edition concert poster.",
+      "price": 25,
+      "currency": "MYR",
+      "image": "/images/poster.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Keychain",
+      "description": "Cute keychain with a concert theme.",
+      "price": 15,
+      "currency": "MYR", 
+      "image": "/images/Keychain.jpg"
+    }
+  ]
+  
